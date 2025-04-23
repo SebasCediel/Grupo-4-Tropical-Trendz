@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Trendz-Hombre</title>
+   
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!--Link del css-->
+     <link rel="stylesheet" href="hombre1.css">
+        <!--link style modal(ver productos)-->
+    <link rel="stylesheet" href="verproducto.css">
+</head>
+<body> 
+    <main class="products container" id="lista-2">
+        <h2>Trajes de Baño para Hombre</h2>
+        <div class="price-filter-container">
+            <h3 class="filter-title">Filtrar por:</h3>
+            <div class="price-filter-full">
+                <label>Precio</label>
+                <input type="range" id="priceRange" min="0" max="100000" step="10000" value="100000">
+                <div class="price-display">
+                    <span id="priceValue">100.000 COP</span>
+                </div>
+            </div>
+        </div>
+        <div class="product-content">
+            <div class="product">
+                <img src="Imagenes/Hombre/fh1.png" alt="">
+                <div class="product-txt">
+                    <h3>Shadow Palms</h3>
+                    <p>Short de baño con diseño degradado en tonos oscuros y estampado de palmeras.</p>
+                    <p class="precio">$60.000</p>
+                    <a href="#" class="agregar-carrito " data-id="301">Agregar al carrito</a>
+                    <a href="#" class="ver-producto"
+                    data-img="Imagenes/Hombre/fh1.png"
+                    data-title="Shadow Palms"
+                    data-description="(descripcion mas detallada)"
+                    data-price="60.000"
+                    data-titlesizes="Tallas disponibles"
+                    data-sizes="M, L">Ver producto</a>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="Imagenes/Hombre/fh2.png" alt="">
+                <div class="product-txt">
+                    <h3>Tropical Vibes</h3>
+                    <p>Bañador con estampado de palmeras en blanco y negro.</p><br>
+                    <p class="precio">$70.000</p>
+                    <a href="#" class="agregar-carrito" data-id="302">Agregar al carrito</a>
+                    <a href="#" class="ver-producto"
+                    data-img="Imagenes/Hombre/fh2.png"
+                    data-title="Tropical Vibes"
+                    data-description="(descripcion mas detallada)"
+                    data-price="70.000"
+                    data-titlesizes="Tallas disponibles"
+                    data-sizes="S, M, L">Ver producto</a>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="Imagenes/Hombre/fh3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Midnight Waves</h3>
+                    <p>Short de baño con patrón floral en tonos oscuros</p><br>
+                    <p class="precio">$70.000</p>
+                    <a href="#" class="agregar-carrito" data-id="303">Agregar al carrito</a>
+                    <a href="#" class="ver-producto"
+                    data-img="Imagenes/Hombre/fh3.jpg"
+                    data-title="Midnight Waves"
+                    data-description="(descripcion mas detallada)"
+                    data-price="70.000"
+                    data-titlesizes="Tallas disponibles"
+                    data-sizes="S, M, L, XL">Ver producto</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal de producto -->
+   <div id="product-modal" class="modal-fade">
+    <div class="product-modal-content">
+        <span id="close-product-modal"></span>
+        <div class="modal-body">
+            <img id="modal-product-img" src="" alt="Producto">
+            <div class="modal-text">
+                <h2 id="modal-product-title"></h2>
+                <p id="modal-product-description"></p>
+                <p id="modal-product-price" class="modal-price"></p>
+                <p id="modal-product-titlesizes" class="modal-titlesizes"></p>
+                <div id="modal-product-sizes" class="modal-sizes"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+   
+   <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery (debe ir primero) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Toastr JS -->
+<script src="https://cdn.jsdelivr.net/npm/toastr@2.1.4/toastr.min.js"></script>
+
+<!-- Archivos personalizados -->
+<script src="navbar.js"></script>
+<script src="carrito.js"></script>
+<script src="script.js"></script>
+<script src="verproducto.js"></script>
+</body>
+</html>

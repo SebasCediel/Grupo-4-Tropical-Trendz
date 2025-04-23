@@ -1,0 +1,106 @@
+[
+    {
+      "id": 101,
+      "nombre": "Aloha Garden",
+      "precio": 60000,
+      "imagen": "Imagenes/Mujer/fm1.png",
+      "descripcion": "Traje de baño entero con escote en V - Resalta tu figura con elegancia",
+      "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 102,
+      "nombre": "Wild Waves",
+      "precio": 70000,
+      "imagen": "Imagenes/Mujer/fm2.png",
+      "descripcion": "Traje de baño deportivo de manga larga - Protección y estilo para tu aventura acuática",
+      "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 103,
+        "nombre": "Sky Breeze",
+        "precio": 70000,
+        "imagen": "Imagenes/Mujer/fm3.png",
+        "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 104,
+        "nombre": "Shadow Palms",
+        "precio": 60000,
+        "imagen": "Imagenes/Hombre/fh1.png",
+        "descripcion": "Short de baño con diseño degradado en tonos oscuros y estampado de palmeras",
+        "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 105,
+        "nombre": "Tropical Vibes",
+        "precio": 70000,
+        "imagen": "Imagenes/Hombre/fh2.png",
+        "descripcion": "Bañador con estampado de palmeras en blanco y negro",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 106,
+        "nombre": "Midnight Waves",
+        "precio": 70000,
+        "imagen": "Imagenes/Hombre/fh3.png",
+        "descripcion": "Short de baño con patrón floral en tonos oscuros",
+        "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 201,
+        "nombre": "Aloha Garden",
+        "precio": 60000,
+        "imagen": "Imagenes/Mujer/fm1.png",
+        "descripcion": "Traje de baño entero con escote en V - Resalta tu figura con elegancia",
+        "tallas": ["S", "M", "L", "XL"]
+      },
+      {
+        "id": 202,
+        "nombre": "Wild Waves",
+        "precio": 70000,
+        "imagen": "Imagenes/Mujer/fm2.png",
+        "descripcion": "Traje de baño deportivo de manga larga - Protección y estilo para tu aventura acuática",
+        "tallas": ["S", "M", "L"]
+      },
+      {
+          "id": 203,
+          "nombre": "Sky Breeze",
+          "precio": 80000,
+          "imagen": "Imagenes/Mujer/fm3.png",
+          "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+          "tallas": ["S", "M", "L", "XL"]
+      },
+      {
+        "id": 204,
+        "nombre": "Sky Breeze",
+        "precio": 35000,
+        "imagen": "Imagenes/Mujer/fm3.png",
+        "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 205,
+        "nombre": "Sky Breeze",
+        "precio": 99000,
+        "imagen": "Imagenes/Mujer/fm3.png",
+        "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 206,
+        "nombre": "Sky Breeze",
+        "precio": 120000,
+        "imagen": "Imagenes/Mujer/fm3.png",
+        "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 207,
+        "nombre": "Sky Breeze",
+        "precio": 100000,
+        "imagen": "Imagenes/Mujer/fm3.png",
+        "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
+        "tallas": ["S", "M", "L", "XL"]
+    }
+  ]
