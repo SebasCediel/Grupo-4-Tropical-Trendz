@@ -102,5 +102,53 @@
         "imagen": "Imagenes/Mujer/fm3.png",
         "descripcion": "Bikini de talle alto con detalles trenzados - Frescura y estilo para días de sol",
         "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 301,
+        "nombre": "Shadow Palms",
+        "precio": 60000,
+        "imagen": "Imagenes/Hombre/fh1.png",
+        "descripcion": "Short de baño con diseño degradado en tonos oscuros y estampado de palmeras",
+        "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 302,
+        "nombre": "Tropical Vibes",
+        "precio": 70000,
+        "imagen": "Imagenes/Hombre/fh2.png",
+        "descripcion": "Bañador con estampado de palmeras en blanco y negro",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 303,
+        "nombre": "Midnight Waves",
+        "precio": 70000,
+        "imagen": "Imagenes/Hombre/fh3.png",
+        "descripcion": "Short de baño con patrón floral en tonos oscuros",
+        "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 401,
+        "nombre": "Pixel Splash",
+        "precio": 45000,
+        "imagen": "Imagenes/Niños/fñ1.webp",
+        "descripcion": "Traje de baño entero con un vibrante diseño geométrico multicolor",
+        "tallas": ["S", "M", "L"]
+    },
+    {
+        "id": 402,
+        "nombre": "Jungle Twilight",
+        "precio": 45000,
+        "imagen": "Imagenes/Niños/fñ2.webp",
+        "descripcion": "Short de baño con estampado de hojas y flores en tonos oscuros",
+        "tallas": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": 403,
+        "nombre": "Summer Bloom",
+        "precio": 50000,
+        "imagen": "Imagenes/Niños/fñ3.webp",
+        "descripcion": "Bikini con volantes y estampado floral en tonos alegres",
+        "tallas": ["S", "M", "L"]
     }
   ]

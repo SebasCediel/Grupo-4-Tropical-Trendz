@@ -22,47 +22,28 @@ body{
 
 }
 
-.header-content{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
+.collection-header {
     text-align: center;
-
+    margin-bottom: 40px;
 }
 
-.header-img{
-    flex-basis: 100%;
-    text-align: center;
-    max-width: 600px;
-}
-
-.header-txt{
-    flex-basis: 50%;
-    text-align: center;
-}
-
-.header-txt h1 {
-    font-size: 80px;
-    text-transform: uppercase;
-    line-height: 1;
-    color:white;
+.collection-header h1 {
     font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 5px #fff, 0 0 10px #111111, 0 0 15px #111111;
-}
-
-.header-txt p {
-    font-size: 20px;
+    font-size: 2.5rem;
+    color: var(--azuloscuro);
     text-transform: uppercase;
-    margin-bottom: 20px;
-    color: white;  /* Texto blanco para resaltar */
-    padding: 5px 10px; /* Espaciado interno para que se vea bien */
-    text-shadow: 0 0 5px #fff, 0 0 10px #111111, 0 0 15px #111111;
-    
+    margin-bottom: 15px;
 }
 
+.collection-description {
+    font-size: 1.1rem;
+    color: var(--azuloscuro);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
 
-
-
+/* Filtro de precios (versión completa) */
 .price-filter-container {
     background-color: #f7f7f7;
     padding: 25px;
@@ -120,7 +101,6 @@ body{
         padding: 20px;
     }
 }
-
 .products{
     padding: 50px 0;
     text-align: center;
@@ -182,6 +162,33 @@ body{
     font-weight: 800;
 }
 
+.icons{
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-1{
+    flex-basis: calc(33.3% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon-txt h3 {
+    font-size: 20px;
+    color: #111111;
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.icon-txt p {
+    font-size: 16px;
+    color: #111111;
+}
 
 
 
@@ -312,6 +319,7 @@ body{
 }.card {
     border-radius: 20px;
 }
+
 .sidebar {
     background-color: #f7f7f7;
     padding: 20px;
